@@ -1,0 +1,23 @@
+{
+  "name": "art",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "esbuild ./app.js --bundle --serve"
+  },
+  "author": "Val Jed",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.11.16",
+    "three": "^0.128.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
+  }
+}
